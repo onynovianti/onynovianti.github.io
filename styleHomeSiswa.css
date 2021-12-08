@@ -1,0 +1,65 @@
+input[type=text],input[type=date],input[type=password],input[type=number], select, textarea {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit], input#cek{
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 75%;
+  /*margin-left: 85%;*/
+}
+
+input[type=submit],input#cek:hover {
+  background-color: #45a049;
+}
+
+input[type=button] {
+  width: 10%;
+  background-color: #767d93;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+input[type=button]:hover {
+  background-color: #595f72;
+}
+
+label.labelKet{
+	width: 20%;
+	display: inline-block;
+	font-weight: bold;
+}
+
+label.labelRadio{
+	margin-left: 1%;
+}
+
+p.pArea * {
+	vertical-align: middle;
+}
+
+input[type=radio]{
+	padding: 12px 20px;
+    margin: 8px 0;
+}
+
+textarea{
+	width:75%;
+    max-width:75%;
+}
